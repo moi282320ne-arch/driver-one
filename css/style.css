@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    background:#FFD600;
+    color:#000;
+    padding:18px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.card{
+    background:#1f1f1f;
+    margin:15px;
+    padding:20px;
+    border-radius:15px;
+}
+
+.botao{
+    background:#FFD600;
+    color:#000;
+    padding:15px;
+    border-radius:12px;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    font-weight:bold;
+}
