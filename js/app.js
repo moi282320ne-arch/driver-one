@@ -28,3 +28,17 @@ function carregarDados() {
 }
 
 carregarDados();
+function atualizarDashboard(){
+
+carregarDados();
+
+document.getElementById("ganhos").innerHTML =
+"R$ " + ganhos.toFixed(2);
+
+document.getElementById("corridas").innerHTML =
+corridas;
+
+document.getElementById("km").innerHTML =
+km + " km";
+
+}
